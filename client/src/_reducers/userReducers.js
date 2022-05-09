@@ -4,9 +4,9 @@
 
 export default function Redusers ( state={}, action ) {
     switch (action.type) {
-        case "loginUser":
+        case "signIn":
             return { ...state, loginSuccess: action.payload}
-        case "registerUser":
+        case "signUp":
             return { ...state, registerSuccess: action.payload}
             
            
