@@ -5,6 +5,7 @@ import LoginPage from './components/view/LoginPage/LoginPage'
 import RegisterPage from './components/view/RegisterPage/RegisterPage'
 import NavBar from './components/view/NavBar/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './config.css'
 
 function App() {
   return (
